@@ -1,1 +1,90 @@
-456
+:root {
+  --purple: #642880;
+  --lightblue: #88b8e6;
+  --darkblue: #5b5dcc;
+  --white: #fbe8d3;
+  --normal-font: 400;
+  --bold-font: 600;
+  --bolder-font: 900;
+  --line-height: 1.7rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background: var(--purple);
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 205.2px;
+  height: 76px;
+  margin-left: 20px;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  color: var(--lightblue);
+}
+
+.nav-item {
+  margin-left: 2rem;
+}
+
+.navbar {
+  background: var(--purple);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  box-shadow: 0px 3px 2px var(--darkblue);
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.9rem;
+  max-width: 1100px;
+  margin: 2rem auto -6rem;
+}
+
+.text {
+  margin: 8rem auto -6rem;
+  text-align: justify;
+  color: var(--lightblue);
+}
+
+.title {
+  font-size: 50px;
+}
+
+.desc {
+  margin-right: 20px;
+  color: var(--white);
+}
+
+.pic {
+  width: 530px;
+  height: 471px;
+}
